@@ -37,7 +37,7 @@ class HelloWorld {
             
         }
         for(int i=0; i<arr_new.Length; i++){
-            Console.Write(arr_new[i]+",");
+            Console.Write(arr_new[i]+", Noice");
         }
   }
 }
