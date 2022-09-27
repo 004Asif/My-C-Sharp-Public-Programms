@@ -1,0 +1,29 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    Console.WriteLine("Zindagi TABHA DA MARA");
+    int[] Arr = {1,2,3,4,5,6,7,8,9,10};
+    int End = Arr.Length;
+    int Beg = 0;
+    int Mid =  (Beg+End)/2;
+    Console.WriteLine("Entre the Item you want to find");
+    int Item = int.Parse(Console.ReadLine());
+    while(End > Beg)
+    {
+        if(Arr[Mid] < Item )
+        {
+            Mid++;
+            Beg = Mid+1;
+            Mid(Mid+Beg)/2;
+        }
+        else if(Arr[Mid]==Item)
+        {
+            Console.WriteLine("The Index is "+Mid+" The Arry is "+Arr[Mid]);
+            break;
+        }
+        else 
+            Mid--;
+            Beg = Mid+1;
+            
+        
+    }
